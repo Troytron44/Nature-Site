@@ -1,0 +1,49 @@
+@charset "utf-8";        
+body {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            padding: 1em;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        nav li {
+            display: inline-block;
+            margin-right: 20px;
+            color: white;
+        }
+
+        .main-content {
+            background-image: url("Nature-Site/iguana-pic.jfif");
+            background-size: contain;
+            background-repeat:round;
+            text-align: center;
+            padding-top: 300px;
+        }
+
+        .main-title {
+            font-size: 4em;
+            color: white;
+        }
+
+        footer {
+            display: flex;
+            font: oblique;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }

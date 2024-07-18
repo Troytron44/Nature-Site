@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+<head>
+         
+    <style>
+        @charset "utf-8";
+body {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            padding: 1em;
+            text-align: right;
+        }
+
+        nav {
+            display:block;
+            justify-content: space-between;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        nav li {
+            display: inline-block;
+            margin-right: 20px;
+            color: white;
+        }
+
+        .main-content {
+            background-image: url("iguana-pic.jfif");
+            background-size: cover;
+            text-align: center;
+            padding-top: 400px;
+        }
+
+        .main-title {
+            font-size: 42px;padding-top:40px;
+            color: white;
+            font-weight: 500;
+            text-shadow:2px 1px 4px;
+            position:absolute; top:5px;
+            
+        }
+
+        p{color: white;
+            font-size: 20px;
+            padding: 5px 5px 5px 5px;
+        }
+        h3{
+            text-align: center;
+            font-size: 32px;
+        }
+        .upper-sec{
+            background: rgba(52,95,30,0.74);  
+        }
+        .mid-sec{
+            background: rgba(24,24,24,0.77)
+        }.lower-sec{
+            background-color: rgba(54,135,136,0.64)
+        }
+        *{
+   box-sizing:border-box;padding:5px;margin:5px;
+   }
+ .container{
+   display:flex;justify-content:center;flex-wrap:wrap;
+   }
+ .card{
+    color:black;width:300px;height:150px;margin:5px;background:white;border-radius:15px;
+    }
+    .card-image{
+      height:126px;background-size:cover;border-radius:15px 15px ;
+      }
+    body{
+     background-color:darkgray;
+     }
+     .iguana-1{
+      background-image:url("iguana-pic1.jpg");
+      }
+           .iguana-2{
+      background-image:url("iguana-pic2.png");
+      }
+           .iguana-3{
+      background-image:url("iguana-pic3.webp")
+      }
+        h2{
+            font-size: 82px;color: rgba(252,252,252,1.00)
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Site</title>
+   <meta charset="utf-8">
+    <link href="Nature-Site/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>WORK</li>
+                <li>CONTACT</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="main-content">
+        <h1 class="main-title">NATURE</h1>
+        <h2>EXPLORE.NATURE</h2>
+    </section>
+    <div class="flex-container">
+    <div class="upper-sec">
+      <h3>Habitat</h3>
+        <p> Iguanas inhabit rainforests, lowlands, swamps, deserts, rocks, and trees. Their diet includes fruits, flowers, leaves, insects, and snails</p>
+    </div>
+        <div class="mid-sec">
+        <h3>Green Iguana</h3>
+        <p>The most abundant type is the green iguana (Iguana iguana). They can grow up to 6.6 feet in length and weigh up to 11 pounds. Their green color helps them blend into the undergrowth, and they have a row of spines on their body for defense.</p>
+        </div>
+        <div class="lower-sec">
+            <h3>Diverse Species</h3>
+            <p>There are about 30 species of iguanas, each with unique adaptations. Some, like the Fiji banded iguana, are bright green with white or light blue bands, while others have more subdued colors</p>
+        
+        </div>
+    </div>
+<div class="container">
+  <div class="card">
+      <div class="card-image iguana-1"></div>
+  </div>
+  <div class="card">
+    <div class="card-image iguana-2"></div>
+  </div>
+  <div class="card">
+    <div class="card-image iguana-3"></div>
+  </div>
+</div>
+
+    
+</body>
+</html>
